@@ -11,11 +11,7 @@ export class StarWarsCharDetailsComponent implements OnInit {
 
   results = [];
   constructor(private activatedRoute: ActivatedRoute,
-    private swSvc: SwcharService
-    ) 
-  {
-
-  }
+    private swSvc: SwcharService) {}
 
   ngOnInit() {
     let charId = this.activatedRoute.snapshot.params.charId;

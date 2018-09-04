@@ -1,8 +1,14 @@
+<!--
+  charImage
+-->
+
 <mat-list>
   <h3 mat-subheader>Star Wars Character</h3>
   <mat-list-item *ngFor="let result of results">
     <mat-icon mat-list-icon>star</mat-icon>
-    <h4 mat-line><button (click)="getSWCharDetails(result.id)">{{result.id}}</button></h4>
-    <p mat-line> {{result.name}} </p>
+    <img matListAvatar src="{{result.charImage}}">
+    <button mat-icon-button (click)="getSWCharDetails(result.id)">
+         &nbsp;{{ result.name }}
+    </button>
   </mat-list-item> 
 </mat-list>

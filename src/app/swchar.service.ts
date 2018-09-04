@@ -8,10 +8,22 @@ export class SwcharService {
   constructor() { }
 
   characters = [
-    { id: 1, name: 'Luke'},
-    { id: 2, name: 'Darth Vader'},
-    { id: 3, name: 'Darth Maul'},
-    { id: 4, name: 'Hans Solo'},
+    { id: 1, 
+      name: 'Luke Skywalker',
+      charImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaxK35nLL9Me9iM3E0iyWrCIBY5kk5kWdKhJsLS5SyogJfEwePdA'
+    },
+    { id: 2, 
+      name: 'Darth Vader',
+      charImage: 'http://digitalspyuk.cdnds.net/15/50/980x490/landscape-1449498579-darth-vader-star-wars.jpg'
+    },
+    { id: 3, 
+      name: 'Darth Maul',
+      charImage: 'https://vignette.wikia.nocookie.net/starwars/images/5/50/Darth_Maul_profile.png',
+    },
+    { id: 4, 
+      name: 'Hans Solo',
+      charImage: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg/220px-Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg'
+    },
   ]
 
   movies = [
